@@ -1,0 +1,173 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+    background-image: url(bilisim-nedir-1024x576.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4,8);
+}
+
+.border {
+    border: 1px solid transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.border:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.header{
+    height: 100vh;
+}
+
+
+
+.navbar{
+    background-color : rgba(59, 71, 132, 0.4);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 60px;
+    color: aliceblue;
+    margin-top: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-logo{
+    width: 170px;
+    height: 150px;
+}
+
+.navbar-logo img{
+width: 100%;
+height: 100%;
+}
+
+.navbar-search{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 300px;
+}
+
+.search-select{
+    height: 30px;
+    width: 65px;
+    border-radius: 5px 0 0 5px ;
+    border: none;
+    background-color: rgb(109, 155, 155);
+   }
+
+.search-input{
+    border: none;
+    width: 100%;
+    width: 250px;
+}
+
+.search-icon{
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    background-color: black;
+    display: flex;
+    border-radius: 0 5px 5px 0;
+}
+
+.baş{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+.nav-yönlendirici{
+padding: 20px;
+display: flex;
+}
+
+
+
+.cavbar{
+    display: inline-flex;
+}
+
+.cav-top-baş{
+    background-color: black;
+    color: aliceblue;
+    height: 70px;
+    border-radius: 3px 3px 0 0 ;
+    font-size: 28px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border: 6px groove ;
+}
+
+.cavbarkonu{
+    margin-top: 30px;
+    width: 400px;
+}
+
+
+
+
+
+.cav-divleri{
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    background-image: url(http://127.0.0.1:5500/alt%C4%B1n.png);
+    width: 400px;
+    height: 100px;
+    margin: 30px;
+    border-radius: 10px 10px 10px 50px;
+    margin-left: 650px;
+    font-size: 40px;
+    padding-bottom: 45px;
+    padding-inline: 4px;
+    border: double 5px ;
+    color: black;
+}
+
+.cav-toplanti{
+    background-color: rgb(174, 184, 195);
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-style: groove ;
+    padding: 3px;
+   }
+
+
+   .cav-topcuk{
+    width: 392px;
+    height: 85px;
+    background-image: url(http://127.0.0.1:5500/alt%C4%B1n.png);
+    border: double 3px;
+    font-size: x-large;
+    padding: 25px;
+    color: black;
+   }
+
+
+   .sonluk{
+    height: 45vh;
+    background-color: rgba(54, 62, 79, 0.668);
+   }
